@@ -1,0 +1,41 @@
+@import "../../vars.css";
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 61px;
+    z-index: 2;
+    margin: 0 10%;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.title:hover {
+  color: var(--color-title);
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItens {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.menuItens a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.menuItens a:hover {
+  color: var(--color-primary);
+}
