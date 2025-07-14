@@ -47,22 +47,26 @@
 
 @media screen and (max-width: 830px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 10%;
+    position: relative; /* Necessário para o menu absoluto */
   }
 
   .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: flex-end;
+    position: relative; /* Para o menuItensOpen ficar relativo ao menu */
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0;
     gap: 11px;
-    z-index: 3;
   }
+
   .menuBtn {
-    display: block; /* Mostra o botão em telas pequenas */
+    display: block;
     cursor: pointer;
+    width: 40px;
+    height: 40px;
   }
 
   .menuItens {
@@ -75,10 +79,15 @@
     background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
     padding: 24px 33px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 100%;
+    left: 50%;                /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta para o centro do botão */
+    min-width: 160px;
   }
   
   .menuItensOpen {
-    display: flex; /* Show menu items when open */
+    display: flex;
     z-index: 1;
   }
 }
