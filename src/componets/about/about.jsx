@@ -16,30 +16,40 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursor.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Design de Hardware e Sensores</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Crio a base física de projetos inteligentes, projetando circuitos que servem como a
+                espinha dorsal para sensores e dispositivos conectados.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/server.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Programação de Sistemas Embarcados</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Atuo como o elo entre o hardware e o software, programando microcontroladores para 
+                gerenciar tarefas e transmitir dados de forma confiável.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/ckt.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Arquitetura de Backend e APIs</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Desenvolvo toda a infraestrutura de servidor para a solução IoT. Crio as APIs que permitem a comunicação, o banco de dados que armazena as 
+                informações e a lógica de negócio no lado do servidor.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/ckt.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Data Science Aplicado à Engenharia</h3>
+              <p>
+                Utilizo a análise de dados para extrair o máximo de valor da informação, desenvolvendo dashboards e modelos que permitem 
+                monitorar e otimizar o sistema como um todo
               </p>
             </div>
           </li>
