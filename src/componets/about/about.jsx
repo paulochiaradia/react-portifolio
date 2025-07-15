@@ -5,7 +5,7 @@ import styles from "./about.module.css";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>Sobre Mim</h2>
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.png")}
@@ -28,7 +28,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Programação de Sistemas Embarcados</h3>
               <p>
-                Atuo como o elo entre o hardware e o software, programando microcontroladores para 
+                Atuo como o elo entre o hardware e o software, programando microcontroladores para
                 gerenciar tarefas e transmitir dados de forma confiável.
               </p>
             </div>
@@ -38,7 +38,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Arquitetura de Backend e APIs</h3>
               <p>
-                Desenvolvo toda a infraestrutura de servidor para a solução IoT. Crio as APIs que permitem a comunicação, o banco de dados que armazena as 
+                Desenvolvo toda a infraestrutura de servidor para a solução IoT. Crio as APIs que permitem a comunicação, o banco de dados que armazena as
                 informações e a lógica de negócio no lado do servidor.
               </p>
             </div>
@@ -48,7 +48,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Data Science Aplicado à Engenharia</h3>
               <p>
-                Utilizo a análise de dados para extrair o máximo de valor da informação, desenvolvendo dashboards e modelos que permitem 
+                Utilizo a análise de dados para extrair o máximo de valor da informação, desenvolvendo dashboards e modelos que permitem
                 monitorar e otimizar o sistema como um todo
               </p>
             </div>

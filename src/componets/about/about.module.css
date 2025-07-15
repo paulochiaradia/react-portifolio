@@ -4,8 +4,8 @@
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
+  padding: 40px 73px 73px 73px;
+  margin-top: 50px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -22,18 +22,26 @@
 .content {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; /* Muda para center para alinhar verticalmente */
+  gap: 60px; /* Aumenta o espaço entre a imagem e a lista */
+  position: relative; /* Adiciona posição relativa para permitir ajustes */
 }
 
 .aboutImage {
-  width: 45%;
+  width: 25%;
+  flex-shrink: 0; /* Impede que a imagem encolha */
+  align-self: center; /* Garante que a imagem fique centralizada */
+  position: relative; /* Permite ajuste fino com transform se necessário */
+  top: -20px; /* Ajusta a posição vertical para alinhar com o centro da lista */
 }
 
 .aboutItems {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 16px; /* Espaço entre os itens da lista */
+  flex: 1; /* Permite que a lista ocupe o espaço restante */
+  align-self: center; /* Garante que a lista também fique centralizada */
 }
 
 .aboutItem {
@@ -42,28 +50,26 @@
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 25px;
+  padding: 16px 24px; /* Aumenta o padding horizontal */
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  background-size: 0 100%;
+  background-size: 0% 100%;
   background-repeat: no-repeat;
-  transition: 0.4s;
+  background-position: left;
+  transition: all 0.4s ease-in-out;
+  gap: 24px; /* Aumenta o espaço entre a imagem e o texto */
 }
 
 .aboutItem:hover {
   background-size: 100% 100%;
+  transform: translateX(8px);
 }
 
-.aboutItem h3 {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.aboutItem p {
-  font-size: 25px;
+.aboutItemText {
+  flex: 1; /* Permite que o texto ocupe o espaço restante */
 }
 
 @media screen and (max-width: 830px) {
