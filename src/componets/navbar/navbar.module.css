@@ -15,10 +15,14 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  transition: 
+    color 0.3s,
+    transform 0.2s cubic-bezier(.4,0,.2,1); /* Adiciona transição suave */
 }
 
 .title:hover {
-  color: var(--color-title);
+  color: var(--color-primary);
+  transform: scale(1.08); /* Efeito de destaque */
 }
 
 .menu {
@@ -34,11 +38,22 @@
 .menuItens a {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 1.3rem; /* Altere este valor para o tamanho desejado */
+  font-size: 1.3rem;
+  transition: 
+    color 0.3s,
+    transform 0.2s cubic-bezier(.4,0,.2,1); /* Adiciona transição suave */
 }
 
 .menuItens a:hover {
-  color: var(--color-title);
+  color: var(--color-primary);
+  transform: scale(1.08); /* Efeito de destaque */
+}
+
+.menuItens li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
 }
 
 .menuBtn {
