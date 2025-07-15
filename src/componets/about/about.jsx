@@ -24,7 +24,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/server.png")} alt="Server icon" />
+            <img src={getImageUrl("about/programa.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Programação de Sistemas Embarcados</h3>
               <p>
@@ -34,7 +34,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/ckt.png")} alt="UI icon" />
+            <img src={getImageUrl("about/server.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>Arquitetura de Backend e APIs</h3>
               <p>

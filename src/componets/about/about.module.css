@@ -37,6 +37,7 @@
 
 .aboutItems {
   color: var(--color-text);
+  font-size: 17px;
   display: flex;
   flex-direction: column;
   gap: 16px; /* Espaço entre os itens da lista */
