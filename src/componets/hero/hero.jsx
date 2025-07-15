@@ -6,7 +6,10 @@ export const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Olá, eu sou Paulo Chiaradia</h1>
+                <h1 className={styles.title}>
+                    Olá, eu sou<br />
+                    Paulo Chiaradia
+                </h1>
                 <p className={styles.description}>Possuo forte interesse por microcontroladores e análise de dados, sendo movido pela curiosidade em explorar novas tecnologias e soluções inovadoras.</p>    
                 <a href="mailto:eu@paulochiaradia.com.br" className={styles.contactBtn}>Entre em Contato</a>
             </div>
