@@ -1,18 +1,23 @@
 [
   {
     "title": "Projeto - Jogo da Vida",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "/projects/project.png",
     "description": "Projeto desenvolvido para exemplificar o uso de LED`s, botões e temporizadores.",
     "skills": ["ESP32", "GPIO", "Millis()", "Debounce"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/paulochiaradia/jogodavida"
   },
   {
     "title": "Projeto  - Devbook",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "/projects/project.png",
     "description": "Projeto de um rede social sobre livros e artigos.",
     "skills": ["Golang", "MYSQL", "HTML", "CSS", "JavaScript"],
-    "demo": "https://www.example.com",
     "source": "https://github.com/paulochiaradia/devbook"
+  },
+    {
+    "title": "Projeto  - Dashboard BI",
+    "imageSrc": "/projects/project.png",
+    "description": "Criacão de Dashboards para visualização de dados e tomada de decisão.",
+    "skills": ["Power BI", "R", "DAX", "SQL"],
+    "demo": "https://app.powerbi.com/view?r=eyJrIjoiY2M4ZWI2YzYtYWM3ZC00ZTU1LWEzOGYtYTg3NzU0NDJkNjFkIiwidCI6ImQ4MTMwYWUxLWJlNjQtNDlkNi05Y2E3LTlhNjI5YjA0NGJlMCJ9"
   }
-]
+  ]
