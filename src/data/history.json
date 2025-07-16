@@ -1,10 +1,10 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "role": "Analista de TI",
+    "organisation": "Comercial Trabiju",
+    "startDate": "Novembro, 2020",
+    "endDate": "Presente",
+    "experiences": ["Dashboards para BI", "Auxilio no suporte técnico", "Desenvolvimento de sistemas internos"],
     "imageSrc": "history/google.png"
   }
 ]

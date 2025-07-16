@@ -1,9 +1,9 @@
 [
   {
-    "title": "Project A",
+    "title": "Projeto - Jogo da Vida",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "Projeto desenvolvido para exemplificar o uso de LED`s, botões e temporizadores.",
+    "skills": ["ESP32", "GPIO", "Millis()", "Debounce"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },

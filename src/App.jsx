@@ -5,6 +5,8 @@ import { About } from './componets/about/about'
 import { ScrollToTop } from './componets/scrollToTop/scrollToTop'
 import { Experience } from './componets/experience/experience'
 import { Projects } from './componets/projects/projects'
+import { Contact } from './componets/contact/contact'
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
     <ScrollToTop/>
     <Experience/>
     <Projects/>
+    <Contact/>
   </div>
 }
 
