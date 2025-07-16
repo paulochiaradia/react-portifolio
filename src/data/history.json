@@ -5,6 +5,14 @@
     "startDate": "Novembro, 2020",
     "endDate": "Presente",
     "experiences": ["Dashboards para BI", "Auxilio no suporte técnico", "Desenvolvimento de sistemas internos"],
-    "imageSrc": "history/google.png"
+    "imageSrc": "history/trabijuicon.png"
+  },
+   {
+    "role": "Bacharel em Ciência e Tecnologia",
+    "organisation": "Universidade Federal de São Paulo",
+    "startDate": "2020",
+    "endDate": "2024",
+    "experiences": ["Programação", "Circuitos Elétricos", "Análise de dados", "Banco de Dados"],
+    "imageSrc": "history/unifespicon.png"
   }
 ]
