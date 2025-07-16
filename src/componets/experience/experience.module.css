@@ -47,6 +47,12 @@
   justify-content: center;
   width: 120px;
   height: 120px;
+  transition: transform 0.3s;
+}
+
+/* Efeito hover para aumentar o círculo da habilidade */
+.skillImageContainer:hover {
+  transform: translateY(-2px) scale(1.07);
 }
 
 .skillImageContainer img {
