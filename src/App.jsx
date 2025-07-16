@@ -4,6 +4,7 @@ import {Hero} from './componets/hero/hero'
 import { About } from './componets/about/about'
 import { ScrollToTop } from './componets/scrollToTop/scrollToTop'
 import { Experience } from './componets/experience/experience'
+import { Projects } from './componets/projects/projects'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <About/>
     <ScrollToTop/>
     <Experience/>
+    <Projects/>
   </div>
 }
 
